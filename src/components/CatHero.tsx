@@ -29,14 +29,13 @@ const CatHero = () => {
         <div className="text-center lg:text-left space-y-6 animate-fade-in-up order-1 lg:order-2">
           <div className="space-y-4">
             <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              sh0ckedCat
+              쇼크
             </h1>
-            <p className="text-xl text-accent font-medium">The sh0cked Cat 🐱⚡</p>
+            <p className="text-xl text-accent font-medium">전기 고양이 🐱⚡</p>
           </div>
           
           <p className="text-lg text-foreground/80 max-w-md mx-auto lg:mx-0 leading-relaxed">
-            sh0cked_cat is a special electric cat with amazing powers! 
-            Every time they get surprised, electric sparks fly out, lighting up the surroundings.✨
+            쇼크는 신기한 능력을 가진 특별한 전기냥이예요! 놀랄 때마다 "찌직!" 하면서 전기가 번쩍번쩍, 주변이 반짝반짝 빛이 나요.✨
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
