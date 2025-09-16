@@ -47,10 +47,11 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Character Portfolio specific colors
-        "character-glow": "hsl(var(--character-glow))",
-        "skill-accent": "hsl(var(--skill-accent))",
-        "story-bg": "hsl(var(--story-bg))",
+        // Cute Cat specific colors
+        "cute-pink": "hsl(var(--cute-pink))",
+        "soft-purple": "hsl(var(--soft-purple))",
+        "warm-cream": "hsl(var(--warm-cream))",
+        "gentle-shadow": "hsl(var(--gentle-shadow))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -80,29 +81,26 @@ export default {
           "0%": { opacity: "0", transform: "translateY(20px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
         },
-        "glow-pulse": {
-          "0%, 100%": { boxShadow: "var(--glow-subtle)" },
-          "50%": { boxShadow: "var(--glow-primary)" },
-        },
-        "float": {
+        "bounce-gentle": {
           "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-10px)" },
+          "50%": { transform: "translateY(-5px)" },
+        },
+        "wiggle": {
+          "0%, 100%": { transform: "rotate(0deg)" },
+          "25%": { transform: "rotate(-2deg)" },
+          "75%": { transform: "rotate(2deg)" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "fade-in-up": "fade-in-up 0.6s ease-out",
-        "glow-pulse": "glow-pulse 2s ease-in-out infinite",
-        "float": "float 3s ease-in-out infinite",
-      },
-      backgroundImage: {
-        "hero-gradient": "var(--hero-gradient)",
+        "bounce-gentle": "bounce-gentle 2s ease-in-out infinite",
+        "wiggle": "wiggle 1s ease-in-out infinite",
       },
       boxShadow: {
-        "glow-primary": "var(--glow-primary)",
-        "glow-accent": "var(--glow-accent)",
-        "glow-subtle": "var(--glow-subtle)",
+        "soft": "var(--soft-shadow)",
+        "card": "var(--card-shadow)",
       },
     },
   },

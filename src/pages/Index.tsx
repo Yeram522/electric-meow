@@ -1,15 +1,13 @@
-import CharacterHero from "@/components/CharacterHero";
-import CharacterStats from "@/components/CharacterStats";
-import CharacterSkills from "@/components/CharacterSkills";
-import CharacterStory from "@/components/CharacterStory";
+import CatHero from "@/components/CatHero";
+import CatInfo from "@/components/CatInfo";
+import CatGallery from "@/components/CatGallery";
 
 const Index = () => {
   return (
     <main className="min-h-screen bg-background">
-      <CharacterHero />
-      <CharacterStats />
-      <CharacterSkills />
-      <CharacterStory />
+      <CatHero />
+      <CatInfo />
+      <CatGallery />
     </main>
   );
 };
