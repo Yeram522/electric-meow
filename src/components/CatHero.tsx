@@ -29,7 +29,7 @@ const CatHero = () => {
         <div className="text-center lg:text-left space-y-6 animate-fade-in-up order-1 lg:order-2">
           <div className="space-y-4">
             <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              MOCHI
+              ElectricMeow
             </h1>
             <p className="text-xl text-accent font-medium">The Sweetest Cat 🐱</p>
           </div>
