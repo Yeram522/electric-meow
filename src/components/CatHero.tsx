@@ -31,12 +31,12 @@ const CatHero = () => {
             <h1 className="text-5xl lg:text-6xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               ElectricMeow
             </h1>
-            <p className="text-xl text-accent font-medium">The Sweetest Cat 🐱</p>
+            <p className="text-xl text-accent font-medium">The Electric Cat 🐱⚡</p>
           </div>
           
           <p className="text-lg text-foreground/80 max-w-md mx-auto lg:mx-0 leading-relaxed">
-            A fluffy ball of joy who loves yarn, sunny naps, and spreading happiness wherever tiny paws go. 
-            Always ready for cuddles and adventures! ✨
+            sh0cked_cat is a special electric cat with amazing powers! 
+            Every time they get surprised, electric sparks fly out, lighting up the surroundings.✨
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -50,8 +50,11 @@ const CatHero = () => {
               variant="outline" 
               size="lg"
               className="border-accent text-accent hover:bg-accent hover:text-accent-foreground transition-all duration-300"
+              asChild
             >
-              Follow on Instagram 💖
+              <a href="https://instagram.com/sh0cked_cat" target="_blank" rel="noopener noreferrer">
+                Follow on Instagram 💖
+              </a>
             </Button>
           </div>
         </div>
